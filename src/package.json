@@ -1,0 +1,32 @@
+{
+  "family": "fsea",
+  "name": "fsea",
+  "version": "0.0.1",
+  "spm": {
+    "alias": {
+      "$": "jquery/jquery/1.10.1/jquery",
+      "alice": "alice/one/1.1.0/alice",
+      "autocomplete": "arale/autocomplete/1.2.1/autocomplete",
+      "backbone": "gallery/backbone/1.0.0/backbone",
+      "detector": "arale/detector/1.2.1/detector",
+      "handlebars": "gallery/handlebars/1.0.2/handlebars",
+      "jquery-color": "jquery/color/2.1.2/color",
+      "json": "gallery/json/1.0.3/json",
+      "mask": "arale/overlay/1.1.3/mask",
+      "moment": "gallery/moment/1.7.2/moment",
+      "placeholder": "arale/placeholder/1.1.0/placeholder",
+      "scrollmonitor": "gallery/scrollmonitor/1.0.5/scrollmonitor",
+      "slide": "arale/switchable/1.0.0/slide",
+      "sticky": "arale/sticky/1.2.1/sticky",
+      "store": "gallery/store/1.3.7/store",
+      "switchable": "arale/switchable/1.0.0/switchable",
+      "tabs": "arale/switchable/1.0.0/tabs",
+      "tip": "arale/tip/1.1.4/tip",
+      "underscore": "gallery/underscore/1.4.4/underscore",
+      "popup": "arale/popup/1.1.5/popup",
+      "validator": "arale/validator/0.9.6/validator"
+    }
+  },
+  "devDependencies": {
+  }
+}
