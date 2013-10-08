@@ -109,7 +109,7 @@ fsea
 	`Q`：这个目录的存在意义是什么？  
 	`A`：一个公司可能会有很多不同的产品，但是产品与产品之间有可能是有部分 `widget` 是共用的，所以会有 `sites/fis.baidu.com` `sites/docs.baidu.com` `sites/totaldifferent.com`，提高widget复用度，降低代码量和维护量。  
 2. 关于 `src/company` 目录的存在意义  
-	`Q`：鉴于目前小公司比较难以实现自己的类似 `npm install xxx` 这样的私有云，一份这样子的`company` 库的存在是挺必要的
+	`Q`：鉴于目前小公司比较难以实现自己的类似 `npm install xxx` 这样的私有云，一份这样子的`company` 库的存在是挺必要的  
 	`A`：所以 `src/company` 存放的是公司的前端组件库和wigets库
 	
 
