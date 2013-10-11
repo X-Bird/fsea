@@ -1,6 +1,6 @@
 define(function(require, exports, module) {
 
-	var $ = require('$');
+	require('company/widgets/beauty-slideshow/js/init-beauty-slideshow');
 	
 	
 });

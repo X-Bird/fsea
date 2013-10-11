@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<div class="web-container">
+		<h1>Hello World!</h1>
+		<div id="J_SlideShow" class="slideshow-container">
+			<ul class="slideshow-trggiers-container">
+				<li class="slideshow-trigger slideshow-trigger-active">&nbsp;</li>
+				<li class="slideshow-trigger">&nbsp;</li>
+				<li class="slideshow-trigger">&nbsp;</li>
+			</ul>
+			<ul class="slideshow-pannels-container">
+				<li class="slideshow-pannel"><a href="//baidu.com"><img src="/company/img/slide_1.jpg" alt=""></a></li>
+				<li class="slideshow-pannel"><a href="//baidu.com"><img src="/company/img/slide_2.jpg" alt=""></a></li>
+				<li class="slideshow-pannel"><a href="//baidu.com"><img src="/company/img/slide_3.jpg" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+	<script src="/sea-modules/seajs/seajs/2.1.1/sea.js"></script>
+	<script>
+		seajs.config({
+		  alias: {
+		    "$": "jquery/jquery/1.10.1/jquery",
+		    "slide": "arale/switchable/1.0.1/slide"
+		  }
+		});
+		seajs.use('company/sites-concated/fis.baidu.com/index/js/index');
+	</script>
+</body>
+</html>

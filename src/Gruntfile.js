@@ -206,7 +206,7 @@ module.exports = function(grunt) {
         },
         files: [{
           cwd: 'company',
-          src: 'javascript/**/*.js',
+          src: 'widgets/**/*.js',
           filter: 'isFile',
           dest: 'sea-modules/company'
         }]
