@@ -1,0 +1,14 @@
+{
+  "family": "fsea",
+  "name": "gruntTest",
+  "version": "0.0.1",
+  "spm": {
+    "alias": {
+      "$": "jquery/jquery/1.10.1/jquery",
+      "slide": "arale/switchable/1.0.0/slide"
+    }
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
